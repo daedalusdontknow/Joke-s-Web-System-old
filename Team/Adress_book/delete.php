@@ -1,6 +1,6 @@
 <?php
 include ('../../style.php');
-include 'functions.php';
+include ('../../db.php');
 $pdo = pdo_connect_mysql();
 $msg = '';
 // Check that the contact ID exists

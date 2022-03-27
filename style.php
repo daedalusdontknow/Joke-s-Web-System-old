@@ -1,5 +1,6 @@
 <?php
 
+//Icon List for Team Page
 function IconListTeam() {
   echo <<<EOT
   <a href="/Team/home.php"><i class="fa-solid fa-house"></i></a>
@@ -9,6 +10,7 @@ function IconListTeam() {
 EOT;
 }
 
+//Icon List for User Page
 function IconListUser() {
   echo <<<EOT
   <a href="/User/home.php"><i class="fa-solid fa-house"></i></a>

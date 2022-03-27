@@ -1,6 +1,6 @@
 <?php
 include ('../../style.php');
-include 'functions.php';
+include ('../../db.php');
 // Connect to MySQL database
 $pdo = pdo_connect_mysql();
 // Get the page via GET request (URL param: page), if non exists default the page to 1

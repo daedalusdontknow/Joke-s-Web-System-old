@@ -12,7 +12,7 @@ if(!($_SESSION['role'] >= 1)){
 	exit;
 }
 
-include 'functions.php';
+include ('../../db.php');
 // Connect to MySQL using the below function
 $pdo = pdo_connect_mysql();
 // MySQL query that retrieves  all the tickets from the databse

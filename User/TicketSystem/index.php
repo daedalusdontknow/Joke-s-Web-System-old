@@ -12,7 +12,7 @@ if(!($_SESSION['role'] >= -1)){
 	exit;
 }
 
-include 'functions.php';
+include ('../../db.php');
 $pdo = pdo_connect_mysql();
 // Output message variable
 $msg = '';
