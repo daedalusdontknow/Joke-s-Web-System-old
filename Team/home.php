@@ -52,7 +52,7 @@ switch ($role) {
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Joke Home Page</title>
+		<title>Joke Team Page</title>
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
 		<link rel="icon" href="\images\JokeSystems.png">
@@ -66,7 +66,7 @@ switch ($role) {
 			</div>
 		</nav>
 		<div class="content">
-			<h2>Home Page</h2>
+			<h2>Team Page</h2>
 			<p>Welcome back, <?= $_SESSION["name"] ?>!</p>
 
         <div>

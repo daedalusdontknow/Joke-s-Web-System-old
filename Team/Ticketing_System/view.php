@@ -58,7 +58,24 @@ $stmt = $pdo->prepare('SELECT * FROM tickets_comments WHERE ticket_id = ? ORDER 
 $stmt->execute([ $_GET['id'] ]);
 $comments = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
-<?=template_header('Joke Ticket System')?>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>$title</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link rel="icon" href="\images\JokeSystems.png">
+	</head>
+	<body>
+    <nav class="navtop">
+    	<div>
+        <img src="\images\JokeSystemsLogo.png" alt="Logo">
+        <h1>Joke Ticket System</h1>
+				<?=IconListTeam()?>
+    	</div>
+    </nav>
 
 <div class="content view">
 
@@ -98,5 +115,5 @@ $comments = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </div>
 
 </div>
-
-<?=template_footer()?>
+    </body>
+</html>

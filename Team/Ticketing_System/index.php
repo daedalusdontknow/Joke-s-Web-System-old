@@ -1,4 +1,5 @@
 <?php
+include ('../../style.php');
 // We need to use sessions, so you should always start sessions using the below code.
 session_start();
 // If the user is not logged in redirect to the login page...
@@ -20,7 +21,23 @@ $stmt->execute();
 $tickets = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ?>
 
-<?=template_header('Joke Ticket System')?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>$title</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link rel="icon" href="\images\JokeSystems.png">
+	</head>
+	<body>
+    <nav class="navtop">
+    	<div>
+        <img src="\images\JokeSystemsLogo.png" alt="Logo">
+        <h1>Joke Ticket System</h1>
+				<?=IconListTeam()?>
+    	</div>
+    </nav>
 
 <div class="content home">
 
@@ -48,5 +65,5 @@ $tickets = $stmt->fetchAll(PDO::FETCH_ASSOC);
 	</div>
 
 </div>
-
-<?=template_footer()?>
+    </body>
+</html>

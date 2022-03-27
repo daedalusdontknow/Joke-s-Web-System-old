@@ -21,7 +21,7 @@ if (isset($_GET['id'])) {
             $msg = 'You have deleted the contact!';
         } else {
             // User clicked the "No" button, redirect them back to the read page
-            header('Location: index.php');
+            header('Location: Index.php');
             exit;
         }
     }

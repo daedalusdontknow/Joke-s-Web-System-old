@@ -1,6 +1,6 @@
 <?php
 // Change this to your connection info.
-include ('../functions.php');
+include ('../db.php');
 $con = mysqli_connect(
     $DATABASE_HOST,
     $DATABASE_USER,
