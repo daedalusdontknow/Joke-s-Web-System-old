@@ -42,20 +42,7 @@ Profile Page {
 Ranking System {
 
     Ranks:
-        -10    -      Banned
-        -1     -     Muted
-        0     -     User
-        1    -     Supporter
-        2    -     Moderator
-        9    -     Developer
-        10    -     Admin/Owner
         Better DB connection
-    -10:
-        Cant enter website, you will be redirected to Login with error message
-    -1:
-        You cant enter anything where you can Write stuff
-    0:
-        Standard User, do whatever a user can do
     1:
         Supporter:
             Resolve Tickets
@@ -75,8 +62,6 @@ Ranking System {
             Mute user
             uprank user to supporter
             Delete users & all their actions
-    9 & 10:
-        Admin & Owner abilitys. All things are accesable
 }
 
 functions class {
@@ -107,7 +92,4 @@ Contact page {
         mute users
         Delete users & all their actions
         promote users to supporter
-
-    Admin and Developer:
-        All functions
 }
