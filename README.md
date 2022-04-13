@@ -1,4 +1,4 @@
-# I Will continue on this Web system when some are using it or later in Summer, thank you for all this support
+I Will continue on this Web system when some are using it or later in Summer, thank you for all this support
 
 # Joke-s-Web-System
 
