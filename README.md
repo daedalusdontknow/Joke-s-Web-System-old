@@ -1,4 +1,4 @@
-# Please don´t use this Version, there are Bugs, i need to fix, wait for release on 17.04.22, thanks
+# I Will continue on this Web system when some are using it or later in Summer, thank you for all this support
 
 # Joke-s-Web-System
 
