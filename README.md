@@ -1,4 +1,4 @@
-I Will continue on this Web system when some are using it or later in Summer, thank you for all this support
+Please check out the new version of Jokeswebsystem 
 
 # Joke-s-Web-System
 
@@ -67,5 +67,4 @@ Here Some screenshots of Version 1 (May not be updatet)
 ![image](https://user-images.githubusercontent.com/101858241/159173832-e698a237-1ac7-4473-876b-bdf837b35c9f.png)
 
 
-See updates.txt to see what is planned
 I Love <3 Joke <3
