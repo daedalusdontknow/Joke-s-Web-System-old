@@ -65,6 +65,3 @@ Here Some screenshots of Version 1 (May not be updatet)
 ![image](https://user-images.githubusercontent.com/101858241/159173697-917b4c1b-52fa-4902-a460-5e0714fdbd16.png)
 ![image](https://user-images.githubusercontent.com/101858241/159341693-b17aaba5-8a5f-433e-ac4f-b9c0262ac600.png)
 ![image](https://user-images.githubusercontent.com/101858241/159173832-e698a237-1ac7-4473-876b-bdf837b35c9f.png)
-
-
-I Love <3 Joke <3
