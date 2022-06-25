@@ -1,4 +1,4 @@
-Please check out the new version of Jokeswebsystem 
+If exsits please check out the new version of Jokeswebsystem this one has nearly no features and is trash
 
 # Joke-s-Web-System
 
